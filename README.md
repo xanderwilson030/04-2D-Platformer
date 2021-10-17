@@ -12,6 +12,8 @@ The coin sprite is provided by Kenney.nl: [https://kenney.nl/assets/puzzle-pack-
 
 The explosion animation is also adapted from Kenney.nl: [https://kenney.nl/assets/tanks](https://kenney.nl/assets/tanks).
 
+Parallax backgrounds are provided by: [opengameart.org](https://opengameart.org/content/2d-backgrounds-for-platformer-game-dungeons-and-cave-parallax-vector-illustration).
+
 ## Extra Mechanics:
 - Saving and Loading
 
