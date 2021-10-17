@@ -27,6 +27,7 @@ Coin Sound: [opengameart.org](https://opengameart.org/content/correct-bell)
 - Juicy Features (Start Menu)
 - Background Music
 - Sound Effects
+- End Game/Death Menu
 
 ## References
 For more information about save and load in Godot, visit the Godot documentation: [https://docs.godotengine.org/en/stable/tutorials/io/saving_games.html#saving-and-reading-data](https://docs.godotengine.org/en/stable/tutorials/io/saving_games.html#saving-and-reading-data)
