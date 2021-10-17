@@ -16,6 +16,8 @@ Parallax backgrounds are provided by: [opengameart.org](https://opengameart.org/
 
 Main Menu Music: [Kid Chameleon Main Theme](https://www.youtube.com/watch?v=W2coFyd0eys&list=PL1D13F6A96FE76117)
 
+Level Music: [Kid Chameleon Cave Music](https://www.youtube.com/watch?v=vhX-do_erUA&list=PL1D13F6A96FE76117&index=2)
+
 Hurt Sound: [opengameart.org](https://opengameart.org/content/hurt-death-sound-effect-for-character)
 
 Coin Sound: [opengameart.org](https://opengameart.org/content/correct-bell)
