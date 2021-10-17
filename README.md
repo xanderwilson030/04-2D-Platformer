@@ -16,6 +16,12 @@ Parallax backgrounds are provided by: [opengameart.org](https://opengameart.org/
 
 Main Menu Music: [Kid Chameleon Main Theme](https://www.youtube.com/watch?v=W2coFyd0eys&list=PL1D13F6A96FE76117)
 
+The terrain spritemap is from the [Abstract Platformer package](https://kenney.nl/assets/abstract-platformer) available at Kenney.nl.
+
+The bat sprite was originally created by bagzie for Stendhal and was [reworked by AntumDeluge](https://opengameart.org/content/bat-rework). 
+
+The pathfinding code was adapted from the good work done by FEDEOD: [https://github.com/FEDE0D/godot-pathfinding2d-demo](https://github.com/FEDE0D/godot-pathfinding2d-demo). Special thanks goes to GDQuest for their excellent pathfinding tutorial: [https://www.gdquest.com/tutorial/godot/2d/navigation2d-tilemap-pathfinding/](https://www.gdquest.com/tutorial/godot/2d/navigation2d-tilemap-pathfinding/).
+
 Level Music: [Kid Chameleon Cave Music](https://www.youtube.com/watch?v=vhX-do_erUA&list=PL1D13F6A96FE76117&index=2)
 
 Hurt Sound: [opengameart.org](https://opengameart.org/content/hurt-death-sound-effect-for-character)
