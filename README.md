@@ -14,6 +14,8 @@ The explosion animation is also adapted from Kenney.nl: [https://kenney.nl/asset
 
 Parallax backgrounds are provided by: [opengameart.org](https://opengameart.org/content/2d-backgrounds-for-platformer-game-dungeons-and-cave-parallax-vector-illustration).
 
+Main Menu Music: [Kid Chameleon Main Theme](https://www.youtube.com/watch?v=W2coFyd0eys&list=PL1D13F6A96FE76117)
+
 ## Extra Mechanics:
 - Saving and Loading
 - Parallax Backgrounds
