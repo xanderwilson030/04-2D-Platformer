@@ -5,7 +5,7 @@ const SECRET = "C220 Is the Best!"
 var save_file = ConfigFile.new()
 
 onready var HUD = get_node_or_null("/root/Game/UI/HUD")
-onready var Coins = get_node_or_null("/root/Game/Coins")
+onready var Coins = get_node("/root/Game/Coins")
 onready var Mines = get_node_or_null("/root/Game/Mines")
 onready var Game = load("res://Game.tscn")
 onready var Coin = load("res://Coin/Coin.tscn")
@@ -20,18 +20,41 @@ var save_data = {
 	}
 }
 
+var coinPickup
+var hurt
 
 func _ready():
-	update_score(0)
-	update_health(0)
+	#update_score(0)
+	#update_health(0)
+	pass
 
 func update_score(s):
 	save_data["general"]["score"] += s
-	HUD.find_node("Score").text = "Score: " + str(save_data["general"]["score"])
+	#HUD.find_node("Score").text = "Score: " + str(save_data["general"]["score"])
+	get_node("/root/Game/UI/HUD/Score").text = "Score: " + str(save_data["general"]["score"])
+	
+	if save_data["general"]["score"] >= 50:
+		var _scene = get_tree().change_scene("res://UI/Win.tscn")
+		
+	if coinPickup == null:
+		coinPickup = get_node("/root/Game/Coin Pickup")
+	if coinPickup != null:
+		coinPickup = get_node("/root/Game/Coin Pickup")
+		coinPickup.play()
 
 func update_health(h):
+	if hurt == null:
+		hurt = get_node("/root/Game/Hurt")
+	if hurt != null:
+		hurt = get_node("/root/Game/Hurt")
+		hurt.play()
+		
 	save_data["general"]["health"] += h
-	HUD.find_node("Health").text = "Health: " + str(save_data["general"]["health"])
+	#HUD.find_node("Health").text = "Health: " + str(save_data["general"]["health"])
+	get_node("/root/Game/UI/HUD/Health").text = "Health: " + str(save_data["general"]["health"])
+	
+	if save_data["general"]["health"] <= 0:
+		var _scene = get_tree().change_scene("res://UI/Die.tscn")
 
 func restart_level():
 	HUD = get_node_or_null("/root/Game/UI/HUD")
@@ -56,6 +79,8 @@ func restart_level():
 
 # ----------------------------------------------------------
 func save_game():
+	Coins = get_node_or_null("/root/Game/Coins")
+	Mines = get_node_or_null("/root/Game/Mines")
 	save_data["general"]["coins"] = []
 	save_data["general"]["mines"] = []
 	for c in Coins.get_children():
