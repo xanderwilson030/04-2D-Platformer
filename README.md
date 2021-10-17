@@ -17,6 +17,9 @@ Parallax backgrounds are provided by: [opengameart.org](https://opengameart.org/
 ## Extra Mechanics:
 - Saving and Loading
 - Parallax Backgrounds
+- Start Menu
+- Juicy Features (Start Menu)
+- 
 
 ## References
 For more information about save and load in Godot, visit the Godot documentation: [https://docs.godotengine.org/en/stable/tutorials/io/saving_games.html#saving-and-reading-data](https://docs.godotengine.org/en/stable/tutorials/io/saving_games.html#saving-and-reading-data)
